@@ -9,5 +9,9 @@ If a project isn't completed, it will accumulate for the following day
 
 ## Projects 💻
 
-- Landing page
-<img src="./assets/landing-page.png" width="800px"/>
+- You can see the whole project by clicking the image bellow
+
+[<img src="./assets/landing-page.png" width="800px"/>](https://30daysofcss.vercel.app/)
+
+## License
+This project is under MIT License
