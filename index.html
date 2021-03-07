@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#30daysCSS | DevDrips</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/modal.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <nav>
+    <button onclick="Modal.toggle()">
+      <img src="./icons/info.svg" alt="About">
+      <span>About the challenge</span>
+    </button>
+    <a href="https://github.com/driellyps/30dayscss" target="_blank">
+      <img src="./icons/github.svg" alt="Github">
+      <span>Check the codes</span>
+    </a>
+    <a href="https://linkedin.com/in/driellyps" target="_blank">
+      <img src="./icons/linkedin.svg" alt="linkedIn">
+      <span>The developer</span>
+    </a>
+    <a href="https://twitter.com/devdrips" target="_blank">
+      <img src="./icons/twitter.svg" alt="Twitter">
+      <span>Follow</span>
+    </a>
+  </nav>
+  
+  <div class="wrapper">
+    <header>
+      <h1>30 Days CSS</h1>
+    </header>
+    <div class="calendar">
+      <div class="header">
+        <strong>Projects</strong>
+      </div>
+      <div class="week01">
+        <a class="inactive">01</a>
+        <a class="inactive">02</a>
+        <a class="inactive">03</a>
+        <a class="inactive">04</a>
+      </div>
+      <div class="week02">
+        <a class="inactive">05</a>
+        <a class="inactive">06</a>
+        <a class="inactive">07</a>
+        <a class="inactive">08</a>
+        <a class="inactive">09</a>
+        <a class="inactive">10</a>
+        <a class="inactive">11</a>
+      </div>
+      <div class="week03">
+        <a class="inactive">12</a>
+        <a class="inactive">13</a>
+        <a class="inactive">14</a>
+        <a class="inactive">15</a>
+        <a class="inactive">16</a>
+        <a class="inactive">17</a>
+        <a class="inactive">18</a>
+      </div>
+      <div class="week04">
+        <a class="inactive">19</a>
+        <a class="inactive">20</a>
+        <a class="inactive">21</a>
+        <a class="inactive">22</a>
+        <a class="inactive">23</a>
+        <a class="inactive">24</a>
+        <a class="inactive">25</a>
+      </div>
+      <div class="week05">
+        <a class="inactive">26</a>
+        <a class="inactive">27</a>
+        <a class="inactive">28</a>
+        <a class="inactive">29</a>
+        <a class="inactive">30</a>
+      </div>
+    </div> 
+  </div>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <button onclick="Modal.toggle()">x</button>
+      <div class="content">
+        <div class="about">
+          <strong>Objective</strong>
+          <p>This challenge consists in developing one mini-project a day for 30 days, to improve coding skills using CSS3 and HTML5</p>
+        </div>
+        <div class="rules">
+          <strong>Rules</strong>
+          <ul>
+            <li>Every day a project must be completed until 23:59pm</li>
+            <li>If a project isn't completed, it will accumulate for the following day</li>
+          </ul>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+  <script src="./src/modal.js"></script>
+
+</body>
+</html>
