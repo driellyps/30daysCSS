@@ -11,7 +11,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 
 - You can see the whole project by clicking the image bellow
 
-[<img src="./assets/landing-page.png" width="800px"/>](https://30daysofcss.vercel.app/)
+[<img src="./assets/landing-page.png" width="800px"/>](https://30daysofcss-driellyps.vercel.app/)
 
 ## License
 This project is under MIT License
