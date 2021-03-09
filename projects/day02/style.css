@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f3f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  width: 50%;
+}
+
+#flip{
+  height: 3rem;
+  overflow: hidden;
+}
+
+#flip div {
+  position: relative;
+  animation: show 5s ease infinite;
+}
+
+#flip div p {
+  padding: .5rem;
+  color: white;
+}
+
+.word1 {
+  background: lightblue;
+}
+.word2 {
+  background: lightpink;
+
+}
+.word3 {
+  background: rgb(214, 214, 245);
+}
+.word4 {
+  background: lightgreen;
+}
+
+@keyframes show {
+  0%{top: -210px}
+  25%{top: -160px}
+  50%{top: -110px}
+  75%{top: -55px}
+  100%{top: 0px}
+}
