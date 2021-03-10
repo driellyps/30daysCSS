@@ -13,5 +13,40 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 
 [<img src="./assets/landing-page.png" width="800px"/>](https://30daysofcss-driellyps.vercel.app/)
 
+|Day|Project/code|
+|:--:|:--:|
+|01|[Beating Heart](https://github.com/driellyps/30daysCSS/tree/master/projects/day01)|
+|02|[Flipping Text](https://github.com/driellyps/30daysCSS/tree/master/projects/day02)|
+|03|[Search Input](https://github.com/driellyps/30daysCSS/tree/master/projects/day03)|
+|04|[]()|
+|05|[]()|
+|06|[]()|
+|07|[]()|
+|08|[]()|
+|09|[]()|
+|10|[]()|
+|11|[]()|
+|12|[]()|
+|13|[]()|
+|14|[]()|
+|15|[]()|
+|16|[]()|
+|17|[]()|
+|18|[]()|
+|19|[]()|
+|20|[]()|
+|21|[]()|
+|22|[]()|
+|23|[]()|
+|24|[]()|
+|25|[]()|
+|26|[]()|
+|27|[]()|
+|28|[]()|
+|29|[]()|
+|30|[]()|
+
+
+
 ## License
 This project is under MIT License
