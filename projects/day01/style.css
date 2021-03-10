@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color:rgb(253, 219, 238);
-  animation-name: color;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation: color 1s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .heart {
@@ -16,10 +22,7 @@ body {
   bottom: 0px;
   right: 0px;
   transform: rotate(-45deg);
-  animation-name: beat;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-
+  animation: beat 1s infinite;
 }
 
 .heart::after {
@@ -36,12 +39,12 @@ body {
   
 }
 .heart::before {
- content: "";
- background-color: palevioletred;
- border-radius: 50%;
- position: absolute;
- width: 80px;
- height: 80px;
+  content: "";
+  background-color: palevioletred;
+  border-radius: 50%;
+  position: absolute;
+  width: 80px;
+  height: 80px;
   top: -40px;
   left: 0px;
   bottom: 0px;

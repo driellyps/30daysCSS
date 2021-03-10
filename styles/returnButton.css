@@ -1,4 +1,4 @@
-a {
+a.return {
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -21,7 +21,7 @@ a {
 }
 
 
-a:hover {
+a.return:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
   background: rgba(0,0,0,0.5);
 }

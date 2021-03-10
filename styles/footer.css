@@ -1,0 +1,25 @@
+footer.copy {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+footer.copy p{
+  font-size: 1rem;
+}
+
+footer.copy a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer.copy a:hover {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
