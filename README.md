@@ -19,7 +19,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |02|[Flipping Text](https://github.com/driellyps/30daysCSS/tree/master/projects/day02)|
 |03|[Search Input](https://github.com/driellyps/30daysCSS/tree/master/projects/day03)|
 |04|[Dessert Cards](https://github.com/driellyps/30daysCSS/tree/master/projects/day04)|
-|05|[]()|
+|05|[Loading animation](https://github.com/driellyps/30daysCSS/tree/master/projects/day05)|
 |06|[]()|
 |07|[]()|
 |08|[]()|
