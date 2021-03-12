@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
 
 .card:hover {
   width: 55%;
-  padding: 1rem 3rem;
+  padding: 1rem 0 1rem 3rem;
 }
 
 .card .description {
@@ -66,7 +67,7 @@ body {
 
 .card:hover .description strong{
   left: 25px;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .card img {

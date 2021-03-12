@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f1f3f5;
+}
+
+.container {
+  position: relative;
+  height: 100px;
+  width: 100px;
+} 
+
+
+span.loader {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #ffc0cb;
+  border-radius: 50%;
+  animation: animate 2s infinite;
+}
+
+span.loader:nth-child(2){
+  animation-delay: 0.5s;
+  background: #f3adb9;
+}
+
+span.loader:nth-child(3){
+  animation-delay: 1s;
+  background: #ff8ea1;
+
+}
+
+span.loader:nth-child(4){
+  animation-delay: 1.5s;
+  background: #fd798f;
+
+}
+
+@keyframes animate {
+  0%{
+      top: 0;
+      left: 0;
+  }
+  25%{
+      top: 0;
+      left: 45%;
+  }
+  50%{
+      top: 45%;
+      left: 45%;
+  }
+  75%{
+      top: 45%;
+      left: 0;
+  }
+  100%{
+      top: 0;
+      left: 0;
+  }
+}
+
