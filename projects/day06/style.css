@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: #f1f3f5; */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15%;
+} 
+
+input {
+  display: none;
+}
+
+.circle {
+  position: relative;
+  left: -31px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.active {
+  position: absolute;
+  left: 529px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  transition: all 1s ease;
+  z-index: 5;
+}
+
+#two:checked ~ .active {
+	transform: translateX(60px);
+}
+
+#three:checked ~ .active {
+	transform: translateX(121px);
+}
+
+.background {
+	position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 400%;
+	background: #a0d9ff;
+  border-left: 1300px solid #c198d1;
+	border-right: 1300px solid #91d4c7;
+	transform: translateX(0px);
+	transition: all 1s ease;
+
+}
+
+#one:checked ~ .background {
+	transform: translateX(0px);
+}
+
+#two:checked ~ .background {
+	transform: translateX(-45%);
+}
+
+#three:checked ~ .background {
+	transform: translateX(-75%);
+}
