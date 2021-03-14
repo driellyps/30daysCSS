@@ -16,8 +16,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 15%;
+  width: fit-content;
+  /* position: absolute; */
+  /* border: 1px solid red; */
 } 
+
+.selected {
+  position: fixed;
+  height: 1px;
+  width: 170px;
+  z-index: 10;
+  visibility: hidden;
+}
 
 input {
   display: none;
@@ -25,7 +35,7 @@ input {
 
 .circle {
   position: relative;
-  left: -31px;
+  left: 0px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -34,37 +44,42 @@ input {
   z-index: 4;
 }
 
+.circle:not(:last-of-type){
+  margin-right: .5rem;
+}
+
 .active {
   position: absolute;
-  left: 529px;
+  left: 3.9%;
+  top: -20px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background: white;
   transition: all 1s ease;
-  z-index: 5;
+  z-index: 10;
+  visibility: visible;
 }
 
-#two:checked ~ .active {
-	transform: translateX(60px);
+#two:checked ~ .selected .active {
+	transform: translateX(145%);
 }
 
-#three:checked ~ .active {
-	transform: translateX(121px);
+#three:checked ~ .selected .active {
+	transform: translateX(290%);
 }
 
 .background {
-	position: fixed;
+	position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 400%;
+  height: 100vh;
+  width: 5000px;
 	background: #a0d9ff;
-  border-left: 1300px solid #c198d1;
-	border-right: 1300px solid #91d4c7;
+  border-left: 1800px solid #c198d1;
+	border-right: 1800px solid #91d4c7;
 	transform: translateX(0px);
 	transition: all 1s ease;
-
 }
 
 #one:checked ~ .background {
@@ -72,9 +87,9 @@ input {
 }
 
 #two:checked ~ .background {
-	transform: translateX(-45%);
+	transform: translateX(-1800px);
 }
 
 #three:checked ~ .background {
-	transform: translateX(-75%);
+	transform: translateX(-3600px);
 }
