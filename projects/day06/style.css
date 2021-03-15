@@ -9,7 +9,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* background: #f1f3f5; */
 }
 
 .container {
@@ -17,8 +16,6 @@ body {
   align-items: center;
   justify-content: space-evenly;
   width: fit-content;
-  /* position: absolute; */
-  /* border: 1px solid red; */
 } 
 
 .selected {

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #2b2d2e;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+div#hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  width: 200px;
+  height: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #2b2d2e;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+#hover:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  background: pink;
+  transform: translate(0, 0);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.5);
+}
+
+#hover:after {
+  position: absolute;
+  z-index: -2;
+  content: '';
+  display: block;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  background: indianred;
+  transform: translate(13px, 12px);
+  transition: all 0.3s ease-in-out;
+}
+
+div#hover:hover {
+  color: #f2f3f5;
+  transform: translate(13px, 12px);
+
+}
+
+#hover:hover:before {
+  background: indianred;
+  box-shadow: -2px -2px 4px 0px rgba(0,0,0,.5);
+}
+
+#hover:hover:after {
+  transform: translate(-15px, -10px);
+  background: pink;
+}
