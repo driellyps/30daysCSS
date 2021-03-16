@@ -21,8 +21,8 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |04|[Dessert Cards](https://github.com/driellyps/30daysCSS/tree/master/projects/day04)|
 |05|[Loading animation](https://github.com/driellyps/30daysCSS/tree/master/projects/day05)|
 |06|[Slider with radio buttons](https://github.com/driellyps/30daysCSS/tree/master/projects/day06)|
-|07|[]()|
-|08|[]()|
+|07|[Hover button](https://github.com/driellyps/30daysCSS/tree/master/projects/day07)|
+|08|[Dark Mode Switch](https://github.com/driellyps/30daysCSS/tree/master/projects/day08)|
 |09|[]()|
 |10|[]()|
 |11|[]()|
