@@ -23,8 +23,8 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |06|[Slider with radio buttons](https://github.com/driellyps/30daysCSS/tree/master/projects/day06)|
 |07|[Hover button](https://github.com/driellyps/30daysCSS/tree/master/projects/day07)|
 |08|[Dark Mode Switch](https://github.com/driellyps/30daysCSS/tree/master/projects/day08)|
-|09|[]()|
-|10|[]()|
+|09|[Social Media Icons](https://github.com/driellyps/30daysCSS/tree/master/projects/day09)|
+|10|[Coffee loader](https://github.com/driellyps/30daysCSS/tree/master/projects/day10)|
 |11|[]()|
 |12|[]()|
 |13|[]()|
