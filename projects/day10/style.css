@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: tan;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.mug {
+  position: absolute;
+  height: 130px;
+  width: 160px;
+  border: 6px solid #f1f3f5;
+  border-radius: 10px 10px 60px 60px;
+
+  background: #f1f3f5 url(./assets/coffee.png) repeat-x 0px 130px;
+  animation: fill 4.5s infinite;
+  animation-delay: 0.5s;
+  box-shadow: 0 0 0 6px black,
+              0 0 10px 10px rgba(0, 0, 0, .5);
+}
+
+.handle {
+  position: absolute;
+  right: -47px;
+  top: 15px;
+  height: 50px;
+  width: 40px;
+  border: 6px solid black;
+  border-radius: 0 10px 30px 0;
+  background: #f1f3f5;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+
+}
+
+.inner-handle {
+  position: absolute;
+  right: -35px;
+  top: 27px;
+  height: 25px;
+  width: 29px;
+  border: 6px solid black;
+  border-radius: 0 10px 30px 0;
+  background: tan;
+}
+
+
+@keyframes fill {
+  0% {
+      background-position: 0px 130px;
+  }
+  20% {
+      background-position: -450px 80px;
+  }
+  40% {
+      background-position: -800px 50px;
+  }
+  80% {
+      background-position: -1100px -30px;
+  }
+  100% {
+      background-position: 0px 130px;
+  }
+}
+
