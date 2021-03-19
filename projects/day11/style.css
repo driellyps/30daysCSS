@@ -73,7 +73,7 @@ body {
   background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(./assets/templetribe2.jpg);
   background-size: contain;
   z-index: 10;
-  font-size: 2.5rem;
+  font-size: 0;
 }
 
 .back span.title {
