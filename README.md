@@ -25,7 +25,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |08|[Dark Mode Switch](https://github.com/driellyps/30daysCSS/tree/master/projects/day08)|
 |09|[Social Media Icons](https://github.com/driellyps/30daysCSS/tree/master/projects/day09)|
 |10|[Coffee loader](https://github.com/driellyps/30daysCSS/tree/master/projects/day10)|
-|11|[]()|
+|11|[Business card](https://github.com/driellyps/30daysCSS/tree/master/projects/day11)|
 |12|[]()|
 |13|[]()|
 |14|[]()|
