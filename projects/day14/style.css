@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #141414;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+input[name="menu"] {
+  display: none;
+  width: 100px;
+  height: 50px;
+}
+
+label[for="menu"] {
+  width: 80px;
+  height: 10px;
+  background: #f1f3f5;
+  border-radius: 10px;
+
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+  transition: 1.5s ease;
+}
+
+label[for="menu"]::before {
+  content: '';
+  width: 80px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f1f3f5;
+  position: absolute;
+  top: 20px;
+  transition: 1.2s ease;
+
+}
+
+label[for="menu"]::after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f1f3f5;
+  position: absolute;
+  bottom: -40px;
+  transition: 1.5s ease;
+  
+}
+
+input[name="menu"]:checked ~ label[for="menu"]::before {
+  opacity: 0;
+  transform: scale(0) rotateZ(85deg);
+  
+}
+
+input[name="menu"]:checked ~ label[for="menu"] {
+  top: 10px;
+  transform: rotateZ(50deg);
+  background: indianred;
+  box-shadow: 0 0 10px indianred;
+}
+
+input[name="menu"]:checked ~ label[for="menu"]::after {
+  bottom: 0px;
+  transform: rotateZ(85deg);
+  background: indianred;
+  box-shadow: 0 0 10px indianred;
+}
