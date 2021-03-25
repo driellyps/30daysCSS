@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f1f3f5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+} 
+
+.container a {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  height: 80px;
+  width: 80px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.3);
+  overflow: hidden;
+
+  color: black;
+  font-size: 1.5rem;
+}
+
+.container a:hover span {
+  position: absolute;
+  color: #f1f3f5;
+  font-size: 1.8rem;
+}
+
+.container a + a {
+  margin-left: 20px;
+}
+
+a#linkedin {
+  color: #0072b1;
+}
+
+a#twitter {
+  color: #00acee;
+}
+a#wpp {
+  color: #25D366;
+}
+a#ig {
+  color: #C13584;
+}
+
+.container a::before {
+  content: '';
+  position: absolute;
+  width: 130%;
+  height: 130%;
+  background: black;
+  transform: rotate(45deg);
+  left: -100%;
+  bottom: -170%;
+}
+
+.container a:hover::before {
+  animation: animate .8s forwards;
+}
+
+a#linkedin:hover::before {
+  background: #0072b1;
+}
+
+a#twitter:hover::before {
+  background: #00acee;
+}
+
+a#wpp:hover::before {
+  background: #25D366;
+}
+
+a#ig:hover::before {
+  background: #C13584;
+}
+
+@keyframes animate{
+  0%{
+    left: -140%;
+    top: 100%;
+  }
+
+  50%{
+    left: 45%;
+    top: -70%;
+  }
+
+  100%{
+    left: -15%;
+    top: -16%;
+  }
+}
